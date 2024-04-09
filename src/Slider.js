@@ -64,7 +64,7 @@ function Slider() {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
