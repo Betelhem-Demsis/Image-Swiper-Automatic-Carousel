@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-import Photo4Image from "./image/Photo_4.jpg";
-import photo1Image from "./image/photo-1.jpg";
-import photo5Image from "./image/photo-5.png";
-import photo2Image from "./image/photo-2.png";
-import photo3Image from "./image/photo-3.jpeg";
+import Photo1Image from "./image/photo-1.jpg";
+import photo2Image from "./image/photo-2.jpg";
+import photo3Image from "./image/photo-3.jpg";
+import photo4Image from "./image/photo-4.jpg";
+import photo5Image from "./image/photo-5.jpg";
 
 function Slider() {
   const [itemActive, setItemActive] = useState(0);
   const items = [
     {
-      src: Photo4Image,
+      src: Photo1Image,
       content: {
         title: "[CONTENT ONE]",
         description:
@@ -18,7 +18,7 @@ function Slider() {
       },
     },
     {
-      src: photo1Image,
+      src: photo2Image,
       content: {
         title: "[CONTENT TWO]",
         description:
@@ -26,7 +26,7 @@ function Slider() {
       },
     },
     {
-      src: photo5Image,
+      src: photo3Image,
       content: {
         title: "[CONTENT THREE]",
         description:
@@ -34,7 +34,7 @@ function Slider() {
       },
     },
     {
-      src: photo2Image,
+      src: photo4Image,
       content: {
         title: "[CONTENT FOUR]",
         description:
@@ -42,7 +42,7 @@ function Slider() {
       },
     },
     {
-      src: photo3Image,
+      src: photo5Image,
       content: {
         title: "[CONTENT FIVE]",
         description:
